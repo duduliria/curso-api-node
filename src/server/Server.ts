@@ -1,4 +1,6 @@
 import express from "express";
+
+import './shared/services/translations'
 import { router } from "./routes";
 import 'dotenv/config'
 
